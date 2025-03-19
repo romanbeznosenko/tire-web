@@ -1,0 +1,21 @@
+/* Add to your main.css or in the <style> section */
+
+/* Style the filter header (title and search input) */
+.brands-filter .filter-header {
+    position: sticky;
+    top: 0;
+    background-color: #fff; /* Ensure the background color */
+    z-index: 1; /* Make sure the header stays on top */
+    padding-bottom: 10px; /* Optional: Add some space below the header */
+}
+
+/* Make the checkbox list scrollable */
+.brands-filter {
+    border: 1px solid #ddd; /* Optional: add a border around the list */
+    padding: 10px;      /* Optional: space inside the filter */
+}
+
+#brandListContainer {
+    max-height: 200px; /* Limit the height of the checkbox list */
+    overflow-y: auto;  /* Enable scrolling for the checkbox list */
+}
